@@ -15,6 +15,21 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.cabecalho {
+  border: solid 10px white;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
 button {
-  background-color: ;
+  float: inline-end;
+  color: white;
+  background-color: #000;
+  border: #8257e5 solid 2px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
 }

@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 :root {
   --backgrond: #000;
   --text-color: #fff;
@@ -7,29 +10,111 @@
   --text-color-menu-mobile: #e1e1e6;
 }
 
+.container {
+  max-width: 1260px;
+}
+
 body {
-  background-color: var(--backgrond);
-  color: var(--text-color);
-  font-family: 'DM Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
+  background-color: #000;
+  color: #fff;
 }
 
-.cabecalho {
-  border: solid 10px white;
+header {
+  position: relative;
+  width: 918px;
+  height: 50px;
+  left: 240px;
+  top: 70px;
 }
 
-li {
-  display: inline-block;
-  padding: 10px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #8257e5;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  gap: 2.8rem;
+  list-style: none;
 }
 
 button {
-  float: inline-end;
+  position: relative;
+  z-index: 4;
   color: white;
-  background-color: #000;
-  border: #8257e5 solid 2px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: #8257e5 solid 3px;
+  padding: 15px;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8257e5;
+}
+
+.tittle {
+  position: absolute;
+  z-index: 4;
+  width: 590px;
+  top: 250px;
+  left: 406px;
+  font-size: 80px;
+}
+
+.secondaryP {
+  color: #8257e5;
+  font-size: 80px;
+  line-height: 109px;
+  letter-spacing: -1px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#animat {
+  animation: fadein linear 5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.coffee {
+  position: absolute;
+  z-index: 4;
+  top: 500px;
+  left: 290px;
+}
+
+.blur2 {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.blur1 {
+  position: absolute;
+  bottom: 0px;
+  width: 700px;
+  height: 500px;
 }

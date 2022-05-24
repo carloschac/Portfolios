@@ -70,7 +70,7 @@ button:hover {
   position: absolute;
   z-index: 4;
   width: 590px;
-  top: 250px;
+  top: 200px;
   left: 406px;
   font-size: 80px;
 }
@@ -99,14 +99,14 @@ button:hover {
 .coffee {
   position: absolute;
   z-index: 4;
-  top: 500px;
+  top: 450px;
   left: 290px;
 }
 
 .blur2 {
   position: absolute;
   width: 400px;
-  height: 600px;
+  height: 400px;
   right: 0px;
   top: 0px;
   z-index: 1;
@@ -114,7 +114,7 @@ button:hover {
 
 .blur1 {
   position: absolute;
-  bottom: 0px;
-  width: 700px;
-  height: 500px;
+  bottom: -200px;
+  width: 500px;
+  height: 600px;
 }

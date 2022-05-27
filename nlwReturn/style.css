@@ -76,8 +76,7 @@ button {
   position: absolute;
   width: 32.7rem;
   height: 47rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
   top: 82.8rem;
 
   background-color: #fffaf1;

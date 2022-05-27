@@ -10,5 +10,5 @@ function openMenu() {
   document.body.classList.add('menu-expanded')
 }
 function closeMenu() {
-  document.body.classList.add('menu-expanded')
+  document.body.classList.remove('menu-expanded')
 }

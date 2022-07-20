@@ -1,0 +1,71 @@
+* {
+}
+body {
+  font-family: 'Charis SIL', serif;
+  margin: 0;
+}
+
+.special-color {
+  color: #bbb287 !important;
+}
+
+.special-colorNav {
+  color: #bbb287 !important;
+  font-weight: 2000;
+}
+
+.coffeee {
+  color: rgba(80, 117, 0, 0.97);
+}
+
+.tittle-color {
+  color: #bbb287;
+}
+
+.navbar-color {
+  background-color: #341d08 !important;
+}
+
+.header-img1 {
+  object-fit: cover;
+  object-position: 0 20%;
+  height: 600px;
+}
+
+.header-img2 {
+  object-fit: cover;
+  object-position: 0 100%;
+  height: 600px;
+}
+
+.card {
+  max-width: 18rem;
+  border: solid 3px #bbb287;
+  background-color: #bbb287;
+}
+
+.abouta {
+  max-width: 100vw;
+}
+.backgroundAll {
+  background-image: url(https://sternacafe.com.br/images/002.webp);
+}
+
+.pColor {
+  color: white;
+}
+
+.footerColor {
+  background-color: rgba(80, 117, 0, 0.97);
+  color: white;
+}
+
+.color-special {
+  color: rgba(80, 117, 0, 0.97);
+}
+
+h5 {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  font-weight: 900;
+}

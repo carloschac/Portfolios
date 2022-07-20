@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <meta author="Carlos Henrique Almeida Camilo" />
+    <title>Plus Coffee</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-color fixed-top">
+        <a class="navbar-brand special-colorNav" href="#"
+          >Plus/<span class="coffeee">Coffee</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link special-color" href="#about"
+                >Sobre nós <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link special-color" href="#contact"
+                >Entre em contato</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link special-color" href="#product">Produtos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/barista2.jpg"
+              class="d-block w-100 header-img1"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="color-special">Atendimento rápido e prático</h5>
+              <p>
+                Faça seu pedido no balcão ou no QR code presente em sua mesa.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/header-page2.jpg"
+              class="d-block w-100 header-img2"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="color-special">
+                Ambiente calmo e decorado para incentivar a sua criatividade.
+              </h5>
+              <p>
+                Use nossos espaçoes reservados para trabalhar em seus projetos
+                ou apenas para ficar a vontade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleCaptions"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleCaptions"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+      <section class="backgroundAll">
+        <div
+          class="d-flex flex-column bd-highlight mb-3 justify-content-center"
+        >
+          <article class="p-2">
+            <h1 class="tittle-color d-flex justify-content-center" id="about">
+              Sobre nós
+            </h1>
+            <p class="pColor">
+              A Plus/Coffee é um cafeteria fundada com o intuito de fornecer um
+              ambiente agradavel e acolhedor para nossos clientes, temos
+              diversas lojas ao redor do país com temas e ambientes
+              completamente diferentes um do outro, mas todos tem algumas coisas
+              em comum, como a qualidade nos produtos e um ambiente 100% Pet
+              Friendly!
+            </p>
+          </article>
+
+          <article class="p-2">
+            <h1 class="tittle-color d-flex justify-content-center">
+              Local 100% Pet Friendly
+            </h1>
+            <p class="pColor">
+              Você terá que reservar uma mesa em nossos locais específicos e
+              adaptados, por isso você deve entrar em contato com o
+              estabelecimento antes de tudo, após fazer a reserva e nos dizer o
+              porte e caracteristicas do seu amiguinho basta comparecer nosso
+              local e apresentar o comprovante de reserva no balcão :)
+            </p>
+          </article>
+        </div>
+        <article class="p-2">
+          <div id="product">
+            <h1 class="tittle-color d-flex justify-content-center">Produtos</h1>
+            <p class="pColor">
+              Um cardápio sofisticado, possui um mix completo de cafés,
+              chocolates e deliciosas sobremesas, que dão água na boca! Nosso
+              café é 100% Arábica que remete qualidade, requinte e aroma intenso
+              nos mais diversos sabores, e os Salgados e massas estão sempre
+              quentinhos e crocantes.
+            </p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="card p-0 m-3 col-12 col-md4">
+                <img
+                  class="card-img-top cardFoto"
+                  src="assets/exemploBebidaQuente.jpg"
+                  alt="Imagem ilustrativa de Capuccino"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bebidas Quentes</h5>
+                  <p class="card-text">
+                    Veja nosso cardapio de bebidas quentes clicando no botão
+                    abaixo.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acessar</a>
+                </div>
+              </div>
+              <div class="card p-0 m-3 col-12 col-md4">
+                <img
+                  class="card-img-top cardFoto"
+                  src="assets/bebidaGelada.jpg"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bebidas Geladas</h5>
+                  <p class="card-text">
+                    Veja nosso cardapio de bebidas geladas clicando no botão
+                    abaixo
+                  </p>
+                  <a href="#" class="btn btn-primary">Acessar</a>
+                </div>
+              </div>
+              <div class="card p-0 m-3 col-12 col-md4">
+                <img
+                  class="card-img-top cardFoto"
+                  src="assets/alimentos.jpg"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Doces&Salgados</h5>
+                  <p class="card-text">
+                    Confira nosso cardapio de alimentos clicando no botão abaixo
+                  </p>
+                  <a href="#" class="btn btn-primary">Acessar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <footer class="footerColor">
+          <p class="m-0">Entre em contato conosco: pluscoffee@pluscoffee.com</p>
+        </footer>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

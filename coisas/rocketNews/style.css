@@ -1,0 +1,28 @@
+
+body {
+    background-color: #000
+}
+.logo {
+    width: 300px;
+}
+
+.h1__text {
+    color: #08C05E;
+}
+
+.h2__text {
+    color: #FFFFFF;
+}
+
+.p__text {
+    color: #FFFFFF;
+}
+
+.form__label {
+    color: #FFFFFF;
+}
+
+.form__a {
+    color: #8257E5
+    ;
+}

@@ -1,9 +1,27 @@
+* {
+    margin: 0;
+}
+
 
 body {
-    background-color: #000
+    background-color: #000;
+    background-image: url(/coisas/rocketNews/assets/read_news.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position-x: right;
 }
+
+
+.container {
+    margin-left: 30px;
+}
+
 .logo {
     width: 300px;
+}
+
+.content {
+    margin-top: 80px;
 }
 
 .h1__text {

@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    fon
 }
 
 
@@ -7,40 +8,46 @@ body {
     background-color: #000;
     background-image: url(/coisas/rocketNews/assets/read_news.jpg);
     background-repeat: no-repeat;
-    background-size: 50% ;
+    background-size: 1112px 100vh;
     background-position-x: right;
 }
 
 
 .container {
+    margin-top: 50px;
     margin-left: 30px;
 }
 
 .logo {
-    width: 300px;
+    width: 400px;
 }
 
 .content {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .h1__text {
     color: #08C05E;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.4rem;
 }
 
 .h2__text {
     color: #FFFFFF;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .p__text {
     color: #FFFFFF;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .form__label {
     color: #FFFFFF;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .form__a {
-    color: #8257E5
-    ;
+    color: #8257E5;
+    font-family: 'League Spartan', sans-serif;
 }

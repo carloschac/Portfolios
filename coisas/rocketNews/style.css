@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    fon
+    font-size: 16px;
 }
 
 
@@ -10,6 +10,14 @@ body {
     background-repeat: no-repeat;
     background-size: 1112px 100vh;
     background-position-x: right;
+}
+
+p {
+   color: #A8A8A8;
+}
+
+span {
+    color: #A8A8A8;
 }
 
 
@@ -24,27 +32,41 @@ body {
 
 .content {
     margin-top: 100px;
+    color: #FFFFFF;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    max-width: 700px;
 }
 
 .h1__text {
     color: #08C05E;
     font-family: 'Work Sans', sans-serif;
-    font-size: 2.4rem;
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
 }
 
-.h2__text {
-    color: #FFFFFF;
-    font-family: 'League Spartan', sans-serif;
-}
-
-.p__text {
-    color: #FFFFFF;
-    font-family: 'League Spartan', sans-serif;
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
 }
 
 .form__label {
-    color: #FFFFFF;
+    color: #A8A8A8;
+    font-weight: 400;
     font-family: 'League Spartan', sans-serif;
+}
+
+.form__email {
+    width: 50vw;
+    height: 2.5rem;
+}
+
+.send__button {
+    display: flex;
+    color: white;
+    background-color: #8257E5;
 }
 
 .form__a {

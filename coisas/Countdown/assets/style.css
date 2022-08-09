@@ -1,0 +1,37 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+h2 {
+    color: var(--purple);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+p {
+    color: var(--light-grey);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+span {
+    color: var(--black);
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.cronometro {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    color: var(--text-color);
+}

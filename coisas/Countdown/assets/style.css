@@ -7,15 +7,23 @@
 
   body {
     font-family: 'Poppins', sans-serif;
+    background-image: url(/coisas/Countdown/assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 100px;
+    background-position-x: right;
   }
 
-  header {
-    background-image: url(/coisas/Countdown/assets/img/top-image.svg);
+  footer {
+    background-image: url(/coisas/Countdown/assets/img/bottom.svg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
   }
 
 h2 {
     color: #6C63FF;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 500;
 }
 
@@ -27,31 +35,41 @@ p {
 
 span {
     color: var(--black);
-    font-size: 72px;
+    font-size: 76px;
     font-weight: 400;
-    padding-top: 2rem;
 }
+
+.numbers p {
+  font-size: 56px;
+}
+
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width: 800px;
+  gap: 1rem;
+  max-width: 500px;
+  margin-left: 250px;
+  margin-top: 250px;
 }
 
-.texto__contagem {
-  gap: 4rem;
-  display: inline-flex;
-  margin-left: 10px;
+.text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+
 }
 
-.numeros {
-  gap: 2rem;
-  display: inline-flex;
+.numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
-
 
 
 .forms {
     color: var(--text-color);
 }
+

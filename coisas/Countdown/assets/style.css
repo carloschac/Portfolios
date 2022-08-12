@@ -9,8 +9,12 @@
     font-family: 'Poppins', sans-serif;
   }
 
+  header {
+    background-image: url(/coisas/Countdown/assets/img/top-image.svg);
+  }
+
 h2 {
-    color: var(--purple);
+    color: #6C63FF;
     font-size: 36px;
     font-weight: 500;
 }
@@ -25,12 +29,28 @@ span {
     color: var(--black);
     font-size: 72px;
     font-weight: 400;
+    padding-top: 2rem;
 }
 
-.cronometro {
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
 }
+
+.texto__contagem {
+  gap: 4rem;
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.numeros {
+  gap: 2rem;
+  display: inline-flex;
+}
+
+
 
 .forms {
     color: var(--text-color);

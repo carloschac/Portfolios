@@ -9,21 +9,15 @@
     font-family: 'Poppins', sans-serif;
     background-image: url(/coisas/Countdown/assets/img/background.svg);
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position-y: 100px;
+    background-size: 40%;
+    background-position-y: 150px;
     background-position-x: right;
   }
 
-  footer {
-    background-image: url(/coisas/Countdown/assets/img/bottom.svg);
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-  }
 
 h2 {
     color: #6C63FF;
-    font-size: 46px;
+    font-size: 2.7rem;
     font-weight: 500;
 }
 
@@ -50,7 +44,7 @@ span {
   gap: 1rem;
   max-width: 500px;
   margin-left: 250px;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .text {
@@ -70,6 +64,26 @@ span {
 
 
 .forms {
-    color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  color: var(--text-color);
 }
 
+.forms button {
+  background-color: var(--purple);
+  color: white;
+  width: 10rem;
+  height: 2.9rem;
+  border: #6C63FF;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+footer {
+  background-image: url(/coisas/Countdown/assets/img/bottom.svg);
+  background-size: 100vw;
+}

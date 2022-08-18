@@ -19,12 +19,10 @@
         document.querySelector("#horas").innerHTML = hours;
         document.querySelector("#minutos").innerHTML = minutes;
         document.querySelector("#segundos").innerHTML = seconds;
-
-        if (days < 10) {
-            document.querySelector("#dias").innerHTML = "0" + days;
-        }
     
     }, 1000 )
+
+    
 
 
 

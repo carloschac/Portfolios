@@ -15,15 +15,14 @@
         console.log(minutes)
         console.log(seconds)
 
-        document.querySelector("#dias").innerHTML = "0" + days;
-        document.querySelector("#horas").innerHTML = "0" + hours;
-        document.querySelector("#minutos").innerHTML = "0" + minutes;
+        document.querySelector("#dias").innerHTML = days;
+        document.querySelector("#horas").innerHTML = hours;
+        document.querySelector("#minutos").innerHTML = minutes;
         document.querySelector("#segundos").innerHTML = seconds;
 
-        if (distance < 0) {
-            return;
-        }
-
+        if (days < 10) {
+            document.querySelector("#dias").innerHTML = "0" + days;
+        } 
     
     }, 1000 )
 

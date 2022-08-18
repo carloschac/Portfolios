@@ -22,7 +22,7 @@
 
         if (days < 10) {
             document.querySelector("#dias").innerHTML = "0" + days;
-        } 
+        }
     
     }, 1000 )
 

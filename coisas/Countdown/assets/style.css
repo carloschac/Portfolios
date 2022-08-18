@@ -83,6 +83,11 @@ span {
   font-size: 17px;
 }
 
+.forms button:hover {
+  transition: 2s;
+  background-color: #000;
+}
+
 footer {
   background-image: url(/coisas/Countdown/assets/img/bottom.svg);
   background-size: 100vw;

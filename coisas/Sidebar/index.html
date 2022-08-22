@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/coisas/Sidebar/assets/css/reset.css">
     <link rel="stylesheet" href="/coisas/Sidebar/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Sidebar</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Dashboard</h1>
-        </header>
-        <div class="sidebar_open">
+        <div class="sidebar_open" style="display: none;">
             <div class="head">
             <img src="/coisas/Sidebar/assets/img/logo.svg" alt="Logo da Vet">
             <img src="/coisas/Sidebar/assets/img/menu.svg" alt="ícone de menu">
         </div>
         <div class="sidebar_content">
-            <ul>
+            <ul class="sidebar_content_ul">
                 <div class="search_box">
-                    <li> <img src="/coisas/Sidebar/assets/img/search.svg" alt="" class="siderbar_img"><span>Buscar</span></li>
+                    <li class="sidebar_content_li"> <img src="/coisas/Sidebar/assets/img/search.svg" alt="" class="siderbar_img"><span>Buscar</span></li>
                 </div>
-                    <li><img src="/coisas/Sidebar/assets/img/grid.svg" alt="" class="siderbar_img"><span>Dashboard</span></li>
-                    <li><img src="/coisas/Sidebar/assets/img/pet.svg" alt="" class="siderbar_img"><span>Pets</span></li>
-                    <li><img src="/coisas/Sidebar/assets/img/user.svg" alt="" class="siderbar_img"><span>Clientes</span></li>
-                    <li><img src="/coisas/Sidebar/assets/img/vet.svg" alt="" class="siderbar_img"><span>Vets</span></li>
-                    <li><img src="/coisas/Sidebar/assets/img/settings.svg" alt="" class="siderbar_img"> <span>Ajustes</span>
+                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/grid.svg" alt="" class="siderbar_img"><span>Dashboard</span></li>
+                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/pet.svg" alt="" class="siderbar_img"><span>Pets</span></li>
+                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/user.svg" alt="" class="siderbar_img"><span>Clientes</span></li>
+                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/vet.svg" alt="" class="siderbar_img"><span>Vets</span></li>
+                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/settings.svg" alt="" class="siderbar_img"> <span>Ajustes</span>
                     </li>      
             </ul>
         </div>
@@ -40,6 +39,24 @@
                 <img src="/coisas/Sidebar/assets/img/log-out.svg" alt="">
             </div>
         </div>
-    </div>
+
+        <div class="sidebar_closed">
+            <ul>
+                <li><img src="/coisas/Sidebar/assets/img/menu.svg" alt="ícone de menu">
+                </li>
+                <li><img src="/coisas/Sidebar/assets/img/search.svg" alt="">
+                </li>
+                <li><img src="/coisas/Sidebar/assets/img/grid.svg" alt="">
+                </li>
+                <li><img src="/coisas/Sidebar/assets/img/pet.svg" alt="">
+                </li>
+                <li><img src="/coisas/Sidebar/assets/img/user.svg" alt="">
+                </li>
+                <li><img src="/coisas/Sidebar/assets/img/vet.svg" alt="">
+                </li>
+                <li><img src="/coisas/Sidebar/assets/img/settings.svg" alt="">
+                </li>      
+            </ul>
+        </div>
 </body>
 </html>

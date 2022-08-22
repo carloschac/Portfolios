@@ -7,16 +7,15 @@
 
   body {
     background-color: var(--body-bg-color);
+    font-family: 'Poppins', sans-serif;
   }
 
   header {
-    margin-top: 2rem;
-    margin-left: 19rem;
     font-size: 25px;
     color: var(--text-color);
   }
 
-  ul {
+  .sidebar_content_ul {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -24,7 +23,7 @@
     
   }
 
-  li {
+  .sidebar_content_li {
     display: flex;
     gap: 1rem;
     justify-items: center;
@@ -105,4 +104,9 @@
 .sidebar__footerimg {
   width: 80px;
   border-radius: 10px;
+}
+
+.sidebar_closed {
+  background-color: var(--green);
+  max-width: 80px;
 }

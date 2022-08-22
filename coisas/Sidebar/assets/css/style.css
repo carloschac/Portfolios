@@ -19,7 +19,8 @@
     background-color: var(--green);
     width: 250px;
     max-width: 250px;
-    height: ;
+    height: 100%;
+    
   }
 
   .sidebar__footerimg {

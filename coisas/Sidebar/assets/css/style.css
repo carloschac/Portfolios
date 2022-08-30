@@ -109,13 +109,20 @@
 /*CLOSED SIDEBAR */
 
 .sidebar_closed {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
   background-color: var(--green);
   max-width: 80px;
   height: 862px;
+}
+
+.sidebar_closed ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar_closed button {
+  justify-content: end;
 }
 
 .sidebar_closed_img {

@@ -1,64 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/coisas/Sidebar/assets/css/reset.css">
-    <link rel="stylesheet" href="/coisas/Sidebar/assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Sidebar</title>
-</head>
-<body>
-        <div class="sidebar_open" style="display: none;">
-            <div class="head">
-            <img src="/coisas/Sidebar/assets/img/logo.svg" alt="Logo da Vet">
-            <img src="/coisas/Sidebar/assets/img/menu.svg" alt="ícone de menu">
-        </div>
-        <div class="sidebar_content">
-            <ul class="sidebar_content_ul">
-                <div class="search_box">
-                    <li class="sidebar_content_li"> <img src="/coisas/Sidebar/assets/img/search.svg" alt="" class="siderbar_img"><span>Buscar</span></li>
-                </div>
-                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/grid.svg" alt="" class="siderbar_img"><span>Dashboard</span></li>
-                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/pet.svg" alt="" class="siderbar_img"><span>Pets</span></li>
-                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/user.svg" alt="" class="siderbar_img"><span>Clientes</span></li>
-                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/vet.svg" alt="" class="siderbar_img"><span>Vets</span></li>
-                    <li class="sidebar_content_li"><img src="/coisas/Sidebar/assets/img/settings.svg" alt="" class="siderbar_img"> <span>Ajustes</span>
-                    </li>      
-            </ul>
-        </div>
-            <div class="sidebar_footer">
-                <img src="/coisas/Sidebar/assets/img/photo.jpg" alt="" class="sidebar__footerimg">
-            <div class="sidebar_footer_text">
-                <p>Eleanor Pena</p>
-                <span>Veterinária</span>
-            </div>
-                <img src="/coisas/Sidebar/assets/img/log-out.svg" alt="">
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/coisas/Sidebar/assets/css/reset.css" />
+    <link rel="stylesheet" href="/coisas/Sidebar/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
-        <div class="sidebar_closed">
-            <ul class="sidebar_closed_ul">
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/menu.svg" alt="ícone de menu" class="sidebar_closed_img">
-                </li>
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/search.svg" alt="" class="sidebar_closed_img">
-                </li>
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/grid.svg" alt="" class="sidebar_closed_img">
-                </li>
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/pet.svg" alt="" class="sidebar_closed_img">
-                </li>
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/user.svg" alt="" class="sidebar_closed_img">
-                </li>
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/vet.svg" alt="" class="sidebar_closed_img">
-                </li>
-                <li class="sidebar_closed_li"><img src="/coisas/Sidebar/assets/img/settings.svg" alt="" class="sidebar_closed_img">
-                </li>
-                <button><img src="/coisas/Sidebar/assets/img/log-out.svg" alt=""></button>
-            </ul>
-            
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener("load", addDarkmodeWidget);
+    </script>
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <div class="sidebar_open" style="display: none">
+      <div class="head">
+        <img src="/coisas/Sidebar/assets/img/logo.svg" alt="Logo da Vet" />
+        <img src="/coisas/Sidebar/assets/img/menu.svg" alt="ícone de menu" />
+      </div>
+      <div class="sidebar_content">
+        <ul class="sidebar_content_ul">
+          <div class="search_box">
+            <li class="sidebar_content_li">
+              <img
+                src="/coisas/Sidebar/assets/img/search.svg"
+                alt=""
+                class="siderbar_img"
+              /><span>Buscar</span>
+            </li>
+          </div>
+          <li class="sidebar_content_li">
+            <img
+              src="/coisas/Sidebar/assets/img/grid.svg"
+              alt=""
+              class="siderbar_img"
+            /><span>Dashboard</span>
+          </li>
+          <li class="sidebar_content_li">
+            <img
+              src="/coisas/Sidebar/assets/img/pet.svg"
+              alt=""
+              class="siderbar_img"
+            /><span>Pets</span>
+          </li>
+          <li class="sidebar_content_li">
+            <img
+              src="/coisas/Sidebar/assets/img/user.svg"
+              alt=""
+              class="siderbar_img"
+            /><span>Clientes</span>
+          </li>
+          <li class="sidebar_content_li">
+            <img
+              src="/coisas/Sidebar/assets/img/vet.svg"
+              alt=""
+              class="siderbar_img"
+            /><span>Vets</span>
+          </li>
+          <li class="sidebar_content_li">
+            <img
+              src="/coisas/Sidebar/assets/img/settings.svg"
+              alt=""
+              class="siderbar_img"
+            />
+            <span>Ajustes</span>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar_footer">
+        <img
+          src="/coisas/Sidebar/assets/img/photo.jpg"
+          alt=""
+          class="sidebar__footerimg"
+        />
+        <div class="sidebar_footer_text">
+          <p>Eleanor Pena</p>
+          <span>Veterinária</span>
         </div>
-</body>
+        <img src="/coisas/Sidebar/assets/img/log-out.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="sidebar_closed">
+      <ul class="sidebar_closed_ul">
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/menu.svg"
+            alt="ícone de menu"
+            class="sidebar_closed_img"
+          />
+        </li>
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/search.svg"
+            alt=""
+            class="sidebar_closed_img"
+          />
+        </li>
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/grid.svg"
+            alt=""
+            class="sidebar_closed_img"
+          />
+        </li>
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/pet.svg"
+            alt=""
+            class="sidebar_closed_img"
+          />
+        </li>
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/user.svg"
+            alt=""
+            class="sidebar_closed_img"
+          />
+        </li>
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/vet.svg"
+            alt=""
+            class="sidebar_closed_img"
+          />
+        </li>
+        <li class="sidebar_closed_li">
+          <img
+            src="/coisas/Sidebar/assets/img/settings.svg"
+            alt=""
+            class="sidebar_closed_img"
+          />
+        </li>
+        <button>
+          <img src="/coisas/Sidebar/assets/img/log-out.svg" alt="" />
+        </button>
+      </ul>
+    </div>
+  </body>
 </html>
